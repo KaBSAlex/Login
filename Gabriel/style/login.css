@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+body {
+    background: rgb(234,233,255);
+    background: linear-gradient(97deg, rgba(234,233,255,1) 1%, 
+    rgba(233,218,231,1) 14%, rgb(228, 155, 134) 49%,
+    rgba(153,112,76,1) 78%, rgba(44,126,143,1) 100%);  
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 91.5vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_login input {
+    margin-bottom: 20px;
+    width: 25rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: solid black;
+    text-align: center;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btns button {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: solid black;
+    font-size: 25px;
+}
+
+.btns button:hover {
+    background-color: #ee884f;
+    color: white;    
+    transition: 0.4s;
+}
+
+.nav_login {
+    text-align: center;
+    margin: 2rem;
+}
+
+.footer { 
+    position: relative;
+    background-color: #ffffff;
+    height: 5rem;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer p {
+    color: rgba(97, 96, 95, 0.856);
+    text-align: center;
+    justify-self: center;
+}
